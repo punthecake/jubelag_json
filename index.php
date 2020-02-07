@@ -2,7 +2,7 @@
 $json = file_get_contents("https://jubelagjson.herokuapp.com/json.php");
 
 $data = json_decode($json,true);
-$list = $data['ballpeb'];
+$list = $data['ballpen'];
 
 
 ?>
