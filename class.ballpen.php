@@ -1,5 +1,5 @@
 <?php
-class ballpen{
+class Ballpen{
 	public $database;
 	
 	public function __construct(){
@@ -11,7 +11,7 @@ class ballpen{
 		}
 	}
 	
-	public function get_ballpen(){
+	public function get_Ballpen(){
 		$sql = "SELECT * FROM tblballpen";
 		$result = mysqli_query($this->database,$sql);
 		while($row = mysqli_fetch_assoc($result)){
