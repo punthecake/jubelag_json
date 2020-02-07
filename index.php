@@ -20,7 +20,7 @@ $list = $data['ballpen'];
 foreach($list as $value){
     ?>
     <tr>
-        <td><?php echo $value['name'];?></td>
+        <td><?php echo $value['ballpen_name'];?></td>
         <td><?php echo $value['price'];?></td>
         <td><?php echo $value['color'];?></td>
         <td><?php echo $value['supplier'];?></td>
